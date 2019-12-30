@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Simple Scroll-up Plugin
-Plugin URI: http://
+Plugin URI: https://github.com/barbareshet/simple-scrollup-plugin
 Description: A Simple Scroll-up Plugin
 Author: Ido Barnea
 Author URI: https://www.barbareshet.co.il
@@ -15,13 +15,13 @@ Text Domain: barbareshet_ssp
 if (!defined('ABSPATH')) {
     exit;
 }
-//require 'inc/plugin-update-checker/plugin-update-checker.php';
-//$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-//    'https://github.com/coinso/coinso-simple-testimonials/',
-//    __FILE__,
-//    'ssp-options'
-//);
-//$myUpdateChecker->setBranch('stable');
+require 'inc/plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://github.com/barbareshet/simple-scrollup-plugin',
+    __FILE__,
+    'ssp-options'
+);
+$myUpdateChecker->setBranch('stable');
 
 
 if ( !defined('SSP_TEXTDOMAIN')){
