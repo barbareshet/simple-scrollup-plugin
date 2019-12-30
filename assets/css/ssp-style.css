@@ -1,0 +1,32 @@
+/* SCROLL UP
+------------------------ */
+.ssp-scrollup {
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.ssp-scrollup .fas {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: .5rem;
+    background-color: #32449A;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .ssp-scrollup {
+        left: 20px;
+        position: fixed;
+        bottom: 50px;
+    }
+}
+
