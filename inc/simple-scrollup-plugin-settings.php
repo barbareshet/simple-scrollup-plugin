@@ -66,9 +66,9 @@ if ( !class_exists('SSP_Settings')){
             ob_start();?>
 
             <div class="wrap">
-                <h2><?php _e('Simple Scroll-Up', SSP_TEXTDOMAIN) ;?></h2>
+                <h2><?php _e('Simple Scroll-Up', 'barbareshet_ssp') ;?></h2>
                 <p>
-                    <?php _e('Settings For the Simple Scroll-Up', SSP_TEXTDOMAIN) ;?>
+                    <?php _e('Settings For the Simple Scroll-Up', 'barbareshet_ssp') ;?>
                 </p>
                 <form action="options.php" method="post">
 
@@ -78,7 +78,7 @@ if ( !class_exists('SSP_Settings')){
                         <tr>
                             <th scope="row">
                                 <label for="ssp_settings[enable]">
-                                    <?php _e('Enable Simple Scroll-Up', SSP_TEXTDOMAIN) ;?>
+                                    <?php _e('Enable Simple Scroll-Up', 'barbareshet_ssp') ;?>
                                 </label>
                             </th>
                             <td>
@@ -88,7 +88,7 @@ if ( !class_exists('SSP_Settings')){
                         <tr>
                             <th scope="row">
                                 <label for="ssp_settings[arrow]">
-                                    <?php _e('Select Arrow Up Icon', SSP_TEXTDOMAIN) ;?>
+                                    <?php _e('Select Arrow Up Icon', 'barbareshet_ssp') ;?>
                                 </label>
                             </th>
                             <td>
@@ -109,7 +109,7 @@ if ( !class_exists('SSP_Settings')){
                         <tr>
                             <th>
                                 <label for="ssp_settings[ssp_main_color]">
-                                    <?php _e('Set Icon Main Color', SSP_TEXTDOMAIN);?>
+                                    <?php _e('Set Icon Main Color', 'barbareshet_ssp');?>
                                 </label>
                             </th>
                             <td>
@@ -119,7 +119,7 @@ if ( !class_exists('SSP_Settings')){
                         <tr>
                             <th>
                                 <label for="ssp_settings[ssp_bg_color]">
-                                    <?php _e('Set Background Color', SSP_TEXTDOMAIN);?>
+                                    <?php _e('Set Background Color', 'barbareshet_ssp');?>
                                 </label>
                             </th>
                             <td>
@@ -130,7 +130,7 @@ if ( !class_exists('SSP_Settings')){
 
                     </table>
                     <p class="submit">
-                        <input type="submit" name="submit" id="submit" class="button button-primary" value="<?php _e('Save Changes', SSP_TEXTDOMAIN) ;?>">
+                        <input type="submit" name="submit" id="submit" class="button button-primary" value="<?php _e('Save Changes', 'barbareshet_ssp') ;?>">
                     </p>
                 </form>
             </div>

@@ -13,10 +13,10 @@ function ssp_activation() {
 		wp_die(
 			'<p>' .
 			sprintf(
-				__( 'This plugin can not be activated because it requires a PHP version greater than %1$s. Your PHP version can be updated by your hosting company.', SSP_TEXTDOMAIN ),
+				__( 'This plugin can not be activated because it requires a PHP version greater than %1$s. Your PHP version can be updated by your hosting company.', 'barbareshet_ssp' ),
 				$php
 			)
-			. '</p> <a href="' . admin_url( 'plugins.php' ) . '">' . __( 'go back', SSP_TEXTDOMAIN ) . '</a>'
+			. '</p> <a href="' . admin_url( 'plugins.php' ) . '">' . __( 'go back', 'barbareshet_ssp' ) . '</a>'
 		);
 	}
 
@@ -25,10 +25,10 @@ function ssp_activation() {
 		wp_die(
 			'<p>' .
 			sprintf(
-				__( 'This plugin can not be activated because it requires a WordPress version greater than %1$s. Please go to Dashboard &#9656; Updates to gran the latest version of WordPress .', SSP_TEXTDOMAIN ),
+				__( 'This plugin can not be activated because it requires a WordPress version greater than %1$s. Please go to Dashboard &#9656; Updates to gran the latest version of WordPress .', 'barbareshet_ssp' ),
 				$php
 			)
-			. '</p> <a href="' . admin_url( 'plugins.php' ) . '">' . __( 'go back', SSP_TEXTDOMAIN ) . '</a>'
+			. '</p> <a href="' . admin_url( 'plugins.php' ) . '">' . __( 'go back', 'barbareshet_ssp' ) . '</a>'
 		);
 	}
 
