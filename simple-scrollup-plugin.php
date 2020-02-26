@@ -73,7 +73,7 @@ if ( is_admin()){
 if ( !function_exists('ssp_add_settings_link') ){
 
     function ssp_add_settings_link( $links ) {
-        $settings_link = '<a href="'.admin_url('admin.php').'?page=ssp-options">' . __( 'Settings', 'ssp_domain' ) . '</a>';
+        $settings_link = '<a href="'.admin_url('admin.php').'?page=ssp-options">' . __( 'Settings', 'barbareshet_ssp' ) . '</a>';
         array_push( $links, $settings_link );
         return $links;
     }
